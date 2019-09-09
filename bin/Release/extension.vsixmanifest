@@ -1,7 +1,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
     <Identity Id="TopLevelMenu.6c56b627-a87b-4694-af62-18cd35336f96" Version="1.0" Language="en-US" Publisher="pixel-fire-studios" />
-    <DisplayName>TopLevelMenu</DisplayName>
+    <DisplayName>notepad++</DisplayName>
     <Description xml:space="preserve">a visual studio extension that adds notepad++ as a menu item via (tools)-(NotePad++)</Description>
   </Metadata>
   <Installation AllUsers="true">
