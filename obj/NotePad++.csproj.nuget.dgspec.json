@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pixeljellyfish\\source\\repos\\NotePad++\\NotePad++.csproj": {}
+    "C:\\Users\\pixeljellyfish\\OneDrive\\Documents\\github\\NotePad-plus-plus\\NotePad++.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pixeljellyfish\\source\\repos\\NotePad++\\NotePad++.csproj": {
+    "C:\\Users\\pixeljellyfish\\OneDrive\\Documents\\github\\NotePad-plus-plus\\NotePad++.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pixeljellyfish\\source\\repos\\NotePad++\\NotePad++.csproj",
+        "projectUniqueName": "C:\\Users\\pixeljellyfish\\OneDrive\\Documents\\github\\NotePad-plus-plus\\NotePad++.csproj",
         "projectName": "NotePad++",
-        "projectPath": "C:\\Users\\pixeljellyfish\\source\\repos\\NotePad++\\NotePad++.csproj",
+        "projectPath": "C:\\Users\\pixeljellyfish\\OneDrive\\Documents\\github\\NotePad-plus-plus\\NotePad++.csproj",
         "packagesPath": "C:\\Users\\pixeljellyfish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pixeljellyfish\\source\\repos\\NotePad++\\obj\\",
+        "outputPath": "C:\\Users\\pixeljellyfish\\OneDrive\\Documents\\github\\NotePad-plus-plus\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\pixeljellyfish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -39,13 +41,15 @@
         "net472": {
           "dependencies": {
             "Microsoft.VSSDK.BuildTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[16.2.3074, )"
+              "version": "[17.0.5232, )"
             },
             "Microsoft.VisualStudio.SDK": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[16.0.202, )"
+              "version": "[17.0.31902.203, )"
             }
           }
         }
